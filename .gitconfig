@@ -1,0 +1,12 @@
+[alias]
+	s = status
+	c = checkout
+	fo = fetch origin --progress --prune
+	tree = log --oneline --all --graph
+	ls = log --oneline
+
+[init]
+	defaultBranch = mainline
+
+[pull]
+	rebase = true
