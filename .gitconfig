@@ -4,9 +4,12 @@
 	fo = fetch origin --progress --prune
 	tree = log --oneline --all --graph
 	ls = log --oneline
+	sw = switch
+	ru = rebase @{u}
+	cp = cherry-pick
 
 [init]
-	defaultBranch = mainline
+	defaultBranch = main
 
 [pull]
 	rebase = true
